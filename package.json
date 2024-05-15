@@ -1,0 +1,18 @@
+{
+    "name": "test-wds-aws-sdk3",
+    "version": "1.0.0",
+    "description": "Serving aws sdk3 with wds",
+    "scripts": {
+      "start": "web-dev-server --root-dir demo --app-index demo/index.html --node-resolve --open --watch --port 8081"
+    },
+    "author": "Mahdi Ridho",
+    "license": "ISC",
+    "dependencies": {
+      "@aws-sdk/client-lambda": "^v3.200.0",
+      "lit": "^2.0.2"
+    },
+    "devDependencies": {
+      "@web/dev-server": "^0.4.5"
+    }
+  }
+  
